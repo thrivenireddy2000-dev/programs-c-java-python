@@ -1,0 +1,33 @@
+n=345
+ld=0
+rev=0
+while(n>0):
+    ld=n%10
+    rev=(rev*10)+ld
+    n=n//10
+    num=rev
+    while(num>0):
+       ld=num%10
+    if(ld==0):
+        print("Zero")
+    elif(ld==1):
+        print("One")
+    elif(ld==2):
+        print("Two")
+    elif(ld==3):
+        print("Three")          
+    elif(ld==4):
+        print("Four")
+    elif(ld==5):
+        print("Five")
+    elif(ld==6):
+        print("Six")
+    elif(ld==7):
+        print("Seven")
+    elif(ld==8):
+        print("Eight")
+    elif(ld==9):
+        print("Nine")
+    elif(ld==10):
+        print("Ten")    
+        num=num/10
